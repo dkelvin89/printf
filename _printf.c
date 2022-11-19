@@ -1,4 +1,8 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <unistd.h>
 
 void cleanup(va_list args, buffer_t *output);
 int run_printf(const char *format, va_list args, buffer_t *output);
